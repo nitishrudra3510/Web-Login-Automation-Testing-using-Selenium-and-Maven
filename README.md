@@ -16,12 +16,11 @@ This project automates the Gmail login page using Selenium WebDriver, Java, and 
 	•	Maven
 	•	WebDriverManager
 	•	ChromeDriver
-	•	JUnit/TestNG (optional for test automation structure)ty.
+	•	JUnit/TestNG (optional for test automation structure)
 
+📂 Project Structure
 
- #📂 Project Structure
-
- project-root/
+project-root/
 ├── src/
 │   └── main/
 │       └── java/
@@ -31,10 +30,16 @@ This project automates the Gmail login page using Selenium WebDriver, Java, and 
 │                       └── seleniumlogin1.java
 ├── pom.xml
 
-
 🔧 How to Run
 	1.	Clone or download the repository
 	2.	Import the project into IntelliJ IDEA / Eclipse
 	3.	Ensure Java 17+ and Maven are installed
 	4.	Run the seleniumlogin1.java file
 
+⚠️ Note
+
+This script only automates up to the email input and “Next” click due to Gmail’s security restrictions, which prevent full login automation.
+
+🙌 Author
+
+Nitish Kumar
